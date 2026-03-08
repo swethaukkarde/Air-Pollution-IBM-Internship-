@@ -1,0 +1,96 @@
+/* GENERAL PAGE LAYOUT */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #eef8ff;
+}
+
+/* HEADER DESIGN */
+header {
+    text-align: center;
+    padding: 15px;
+    background: #005ad3;
+    color: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+header p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* MAP AREA */
+#map {
+    width: 100%;
+    height: calc(100vh - 150px);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #005ad3;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+}
+/* SEARCH + COMPARE PANEL */
+.controls {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    z-index: 9999;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.controls input, .controls select {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    width: 180px;
+}
+
+.controls button {
+    padding: 7px 10px;
+    background: #005ad3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.controls button:hover {
+    background: #003f9c;
+}
+
+/* Comparison Result Box */
+#compareResult {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    font-size: 16px;
+    z-index: 9999;
+    display: none;
+}
